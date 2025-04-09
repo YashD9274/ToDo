@@ -118,3 +118,24 @@ textarea {
   text-align: center;
   border-bottom: 2px solid black;
 }
+
+.description_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo_description {
+  margin: 0;
+  transition: text-decoration 0.3s ease;  
+}
+
+.complete_button {
+  align-self: flex-start;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: burlywood;
+  font-weight: bold;
+  }
+
